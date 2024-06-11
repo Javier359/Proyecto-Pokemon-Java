@@ -1,4 +1,8 @@
 public class Bulbasaur extends Pokemon implements Planta {
+
+    public Bulbasaur() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Bulbasaur atacando con placaje");

@@ -1,4 +1,8 @@
 public class Charmander extends Pokemon implements Fuego{
+
+    public Charmander() {
+    }
+
     @Override
     protected void atacarAranazo() {
         System.out.println("Charmander atacando con arañazo");
