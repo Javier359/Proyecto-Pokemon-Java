@@ -7,5 +7,14 @@ public class Main {
         Charmander charmander = new Charmander();
         Bulbasaur bulbasaur = new Bulbasaur();
         Squirtle squirtle = new Squirtle();
+
+        pikachu.atacarAranazo();
+        pikachu.atacarImpactrueno();
+        charmander.atacarAranazo();
+        charmander.aracarLanzallamas();
+        bulbasaur.atacarAranazo();
+        bulbasaur.atacarDrenaje();
+        squirtle.atacarAranazo();
+        squirtle.atacarBurbuja();
     }
 }
