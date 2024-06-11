@@ -1,30 +1,31 @@
 public class Bulbasaur extends Pokemon implements Planta {
 
-    public Bulbasaur() {
+    public Bulbasaur(String nombre, int numPokedex, double peso, int temporada) {
+        super(nombre, numPokedex, peso, temporada);
     }
 
     @Override
     protected void atacarPlacaje() {
-        System.out.println("Bulbasaur atacando con placaje");
+        System.out.println( nombre + " atacando con placaje");
     }
 
     @Override
     protected void atacarMordisco() {
-        System.out.println("Bulbasaur atacando mordisco");
+        System.out.println( nombre + " atacando mordisco");
     }
 
     @Override
     protected void atacarAranazo() {
-        System.out.println("Bulbasaur atacando arañazo");
+        System.out.println(nombre + " atacando arañazo");
     }
 
     @Override
     public void atacarDrenaje() {
-        System.out.println("Bulbasaur atacando drenaje");
+        System.out.println(nombre + " atacando drenaje");
     }
 
     @Override
     public void atacarParalizar() {
-        System.out.println("Bulbasaur atacando paralizar");
+        System.out.println(nombre + " atacando paralizar");
     }
 }

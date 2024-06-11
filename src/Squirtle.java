@@ -1,35 +1,36 @@
 public class Squirtle extends Pokemon implements Agua {
 
-    public Squirtle() {
+    public Squirtle(String nombre, int numPokedex, double peso, int temporada) {
+        super(nombre, numPokedex, peso, temporada);
     }
 
     @Override
     protected void atacarPlacaje() {
-        System.out.println("Squirtle atacando con placaje");
+        System.out.println( nombre + " atacando con placaje");
     }
 
     @Override
     protected void atacarMordisco() {
-        System.out.println("Squirtle atacando con mordisco");
+        System.out.println( nombre + " atacando con mordisco");
     }
 
     @Override
     protected void atacarAranazo() {
-        System.out.println("Squirtle atacando con arañazo");
+        System.out.println( nombre + " atacando con arañazo");
     }
 
     @Override
     public void atacarBurbuja() {
-        System.out.println("Squirtle atacando burbuja");
+        System.out.println( nombre + " atacando burbuja");
     }
 
     @Override
     public void atacarPistolaAgua() {
-        System.out.println("Squirtle atacando pistola agua");
+        System.out.println(nombre + " atacando pistola agua");
     }
 
     @Override
     public void atacarHidroBomba() {
-        System.out.println("Squirtle atacando hidroBomba");
+        System.out.println(nombre + " atacando hidroBomba");
     }
 }

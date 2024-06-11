@@ -1,29 +1,30 @@
 public class Pikachu extends Pokemon implements Electrico{
-    public Pikachu() {
+    public Pikachu(String nombre, int numPokedex, double peso, int temporada) {
+        super(nombre, numPokedex, peso, temporada);
     }
 
     @Override
     protected void atacarPlacaje() {
-        System.out.println("Pikachu atacando con placaje");
+        System.out.println(nombre + " atacando con placaje");
     }
 
     @Override
     protected void atacarMordisco() {
-        System.out.println("Pikachu atacando con mordisco");
+        System.out.println(nombre + " atacando con mordisco");
     }
 
     @Override
     protected void atacarAranazo() {
-        System.out.println("Pikachu atacando con arañazo");
+        System.out.println(nombre + " atacando con arañazo");
     }
 
     @Override
     public void atacarImpactrueno() {
-        System.out.println("Pikachu atacando con impactrueno");
+        System.out.println(nombre + " atacando con impactrueno");
     }
 
     @Override
     public void atacarPunoTrueno() {
-        System.out.println("Pikachu atacando con puño trueno");
+        System.out.println(nombre + " atacando con puño trueno");
     }
 }
