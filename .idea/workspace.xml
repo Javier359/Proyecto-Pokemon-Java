@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c73e8e1-5116-4313-9eb9-8faf729b7a73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1717720751344" duration="2093000" />
       <workItem from="1717887129586" duration="2963000" />
       <workItem from="1718052721159" duration="2569000" />
-      <workItem from="1718111528587" duration="355000" />
+      <workItem from="1718111528587" duration="667000" />
     </task>
     <servers />
   </component>
