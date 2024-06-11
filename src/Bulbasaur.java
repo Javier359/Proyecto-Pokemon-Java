@@ -1,4 +1,4 @@
-public class Bulbasaur extends Pokemon {
+public class Bulbasaur extends Pokemon implements Planta {
     @Override
     protected void atacarPlacaje() {
         System.out.println("Bulbasaur atacando con placaje");
@@ -12,5 +12,15 @@ public class Bulbasaur extends Pokemon {
     @Override
     protected void atacarAranazo() {
         System.out.println("Bulbasaur atacando arañazo");
+    }
+
+    @Override
+    public void atacarDrenaje() {
+        System.out.println("Bulbasaur atacando drenaje");
+    }
+
+    @Override
+    public void atacarParalizar() {
+        System.out.println("Bulbasaur atacando paralizar");
     }
 }

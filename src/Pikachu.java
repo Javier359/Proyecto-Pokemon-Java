@@ -1,4 +1,4 @@
-public class Pikachu extends Pokemon{
+public class Pikachu extends Pokemon implements Electrico{
     @Override
     protected void atacarPlacaje() {
         System.out.println("Pikachu atacando con placaje");
@@ -12,5 +12,15 @@ public class Pikachu extends Pokemon{
     @Override
     protected void atacarAranazo() {
         System.out.println("Pikachu atacando con arañazo");
+    }
+
+    @Override
+    public void atacarImpactrueno() {
+        System.out.println("Pikachu atacando con impactrueno");
+    }
+
+    @Override
+    public void atacarPunoTrueno() {
+        System.out.println("Pikachu atacando con puño trueno");
     }
 }

@@ -1,4 +1,4 @@
-public class Squirtle extends Pokemon {
+public class Squirtle extends Pokemon implements Agua {
 
     @Override
     protected void atacarPlacaje() {
@@ -13,5 +13,20 @@ public class Squirtle extends Pokemon {
     @Override
     protected void atacarAranazo() {
         System.out.println("Squirtle atacando con arañazo");
+    }
+
+    @Override
+    public void atacarBurbuja() {
+        System.out.println("Squirtle atacando burbuja");
+    }
+
+    @Override
+    public void atacarPistolaAgua() {
+        System.out.println("Squirtle atacando pistola agua");
+    }
+
+    @Override
+    public void atacarHidroBomba() {
+        System.out.println("Squirtle atacando hidroBomba");
     }
 }
